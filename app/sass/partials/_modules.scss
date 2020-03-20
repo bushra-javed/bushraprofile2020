@@ -1,0 +1,22 @@
+//form;
+#{$all-text-inputs} {
+  border: 1px solid #ccc;
+  box-shadow: -4px 4px 0 #444;
+  font-size: 16px;
+  padding: 10px;
+
+}
+
+#{$all-text-inputs-active} {
+  border: 1px solid #aaa;
+}
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover} {
+  border: 1px solid #1565c0;
+
+
+
+}
+
+#{$all-buttons} {}

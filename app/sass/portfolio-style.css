@@ -1,0 +1,881 @@
+:root {
+  font-size: 20px;
+}
+
+.h1,
+h1 {
+  font-size: 1.8rem;
+}
+
+.h2,
+h2 {
+  font-size: 1.6rem;
+}
+
+.h3,
+h3 {
+  font-size: 1.5rem;
+}
+
+.h4,
+h4 {
+  font-size: 1.4rem;
+}
+
+.h5,
+h5 {
+  font-size: 1.2rem;
+}
+
+.h6,
+h6 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  font-size: 1rem;
+}
+
+li {
+  font-size: 1rem;
+}
+
+i {
+  font-size: 1rem;
+}
+
+span {
+  font-size: 1rem;
+}
+
+button {
+  font-size: 1rem;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  color: #122225;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.button-class, section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text a button, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  padding: .6em 1.2em;
+  background-color: #EA6045;
+  border-radius: .19em;
+  -webkit-box-shadow: 0 4px 4px -1px #333;
+          box-shadow: 0 4px 4px -1px #333;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  text-decoration: none;
+}
+
+.button-class:active, section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text a button:active, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button:active, .button-class:hover, section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text a button:hover, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button:hover {
+  -webkit-box-shadow: 0 17px 10px -10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 17px 10px -10px rgba(0, 0, 0, 0.4);
+  color: #1c4a5a;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.circle-for-icon {
+  width: 6vmin;
+  height: 6vmin;
+  font-size: 1rem;
+  background: #0cb8b6;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  line-height: 6vmin;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+.rectangle-with-traingle {
+  margin-left: 140px;
+  background: #fff;
+  padding: 14px 24px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.18);
+          box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.18);
+  position: relative;
+  width: 200px;
+  height: 400px;
+}
+
+.rectangle-with-traingle::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-left: 0;
+  bottom: -40px;
+  left: 56px;
+  border-top-color: #fff;
+  border-width: 20px;
+}
+
+.bg-color, section#banner.rightwindow .banner-bg-color, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-center {
+  padding-bottom: 30px;
+  background-color: RGBA(13, 70, 93, 0.9);
+  /* background-color: red; */
+  min-height: 60px;
+  padding-left: -30px !important;
+}
+
+.section-margin {
+  margin: 30px 0;
+}
+
+.section-padding {
+  padding: 30px 0;
+}
+
+.line-under-heading, section#portfolio.rightwindow .portfolio-bg-color .portfolio-header .inner-header::after, section#aboutme .about-header::after, section#contact .contact .card-bushra h1::after {
+  content: "";
+  width: 200px;
+  background-color: #EA6045;
+  margin: auto;
+  display: block;
+  height: 5px;
+}
+
+.navbar-layout-setting, header .bg-color-header .navbar-default {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-layout-setting .navbar-nav li.active a, header .bg-color-header .navbar-default .navbar-nav li.active a {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: rgba(12, 184, 182, 0.21);
+}
+
+.navbar-layout-setting .navbar-nav li.active a:hover, header .bg-color-header .navbar-default .navbar-nav li.active a:hover {
+  color: #EA6045;
+}
+
+.navbar-layout-setting .navbar-nav li.active a:focus, header .bg-color-header .navbar-default .navbar-nav li.active a:focus {
+  color: #EA6045;
+}
+
+.navbar-layout-setting .navbar-nav li a, header .bg-color-header .navbar-default .navbar-nav li a {
+  color: #fff;
+  /* border:1px solid red; */
+  text-transform: uppercase;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 60px;
+  line-height: 40px;
+  margin-right: 25px;
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+.navbar-layout-setting .navbar-nav li a:hover, header .bg-color-header .navbar-default .navbar-nav li a:hover {
+  color: #EA6045;
+  background-color: rgba(12, 184, 182, 0.21);
+  border-bottom: 3px solid #EA6045;
+}
+
+.navbar-layout-setting .navbar-nav li a:focus, header .bg-color-header .navbar-default .navbar-nav li a:focus {
+  color: #EA6045;
+  background-color: rgba(12, 184, 182, 0.21);
+  border-bottom: 3px solid #EA6045;
+}
+
+[type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: -4px 4px 0 #444;
+          box-shadow: -4px 4px 0 #444;
+  font-size: 16px;
+  padding: 10px;
+}
+
+[type='color']:active, [type='date']:active, [type='datetime']:active, [type='datetime-local']:active, [type='email']:active, [type='month']:active, [type='number']:active, [type='password']:active, [type='search']:active, [type='tel']:active, [type='text']:active, [type='time']:active, [type='url']:active, [type='week']:active, input:not([type]):active, textarea:active {
+  border: 1px solid #aaa;
+}
+
+[type='color']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='email']:focus, [type='month']:focus, [type='number']:focus, [type='password']:focus, [type='search']:focus, [type='tel']:focus, [type='text']:focus, [type='time']:focus, [type='url']:focus, [type='week']:focus, input:not([type]):focus, textarea:focus,
+[type='color']:hover, [type='date']:hover, [type='datetime']:hover, [type='datetime-local']:hover, [type='email']:hover, [type='month']:hover, [type='number']:hover, [type='password']:hover, [type='search']:hover, [type='tel']:hover, [type='text']:hover, [type='time']:hover, [type='url']:hover, [type='week']:hover, input:not([type]):hover, textarea:hover {
+  border: 1px solid #1565c0;
+}
+
+.v-a, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div, section#contact .contact .card-bushra div {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+/* button deail */
+a:hover {
+  text-decoration: none;
+}
+
+.rectangle-for-wiht-traingle-wrapper {
+  background-color: #444444;
+  padding: 40px;
+}
+
+.rightwindow {
+  width: 100%;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.rightwindow.active2 {
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  width: 85%;
+  margin-left: 15%;
+  /* border: 1px solid red; */
+}
+
+.c {
+  clear: both;
+}
+
+.fancy-shadow-narrow::before {
+  content: "";
+  height: 10px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(transparent));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+}
+
+header .bg-color-header {
+  padding-bottom: 30px;
+  background-color: RGBA(13, 70, 93, 0.9);
+  min-height: 60px;
+  padding-left: -30px !important;
+}
+
+.green-background-and-shadow, .top-nav-collapse, nav .sidebar-navbar-toggle-button {
+  background-color: #1c4a5a;
+  -webkit-box-shadow: 2px 2px 5px #444444;
+          box-shadow: 2px 2px 5px #444444;
+}
+
+.top-nav-collapse {
+  background-color: #1c4a5a;
+}
+
+/*-----------------------------------------------------   sidebar menu ---------------------------------- */
+nav .sidebar-navbar-toggle-button {
+  padding-left: 10px;
+  padding-top: 5px;
+  color: #EA6045 !important;
+  height: 65px;
+  line-height: 65px;
+  z-index: 991;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  color: #1c4a5a;
+  width: 100%;
+}
+
+nav .sidebar-navbar-toggle-button .toggle-button-div {
+  cursor: pointer;
+  display: inline;
+  margin-left: 10px;
+}
+
+nav .sidebar-navbar-toggle-button .toggle-button-div #toggle-closebutton {
+  display: none;
+}
+
+nav .sidebar-navbar-toggle-button .sidebar-navbar-brand {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 30%;
+}
+
+nav .sidebar-navbar-toggle-button .sidebar-navbar-brand .bushra-brand img {
+  width: 6rem;
+}
+
+nav .sidebar-wrapper {
+  padding-top: 65px;
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  display: none;
+  z-index: 9;
+}
+
+nav .sidebar-wrapper #sidebar {
+  z-index: -1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.9);
+  float: left;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -webkit-box-shadow: 2px 2px 10px #444444;
+          box-shadow: 2px 2px 10px #444444;
+}
+
+nav .sidebar-wrapper #sidebar ul {
+  /* border-right: 1px solid red; */
+  /* color:red; */
+  height: 100%;
+}
+
+nav .sidebar-wrapper #sidebar ul li {
+  padding: 5px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+  list-style: none;
+  height: 60px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav .sidebar-wrapper #sidebar ul li a {
+  color: gray;
+}
+
+nav .sidebar-wrapper #sidebar ul li a:hover {
+  text-decoration: none;
+}
+
+nav .sidebar-wrapper #sidebar ul li.sidebar-li-1,
+nav .sidebar-wrapper #sidebar ul li.sidebar-li-3,
+nav .sidebar-wrapper #sidebar ul li.sidebar-li-5 {
+  border-right: 4px solid #EA6045;
+  color: #EA6045;
+  text-align: center;
+  /* color:#ea6045;     */
+}
+
+nav .sidebar-wrapper #sidebar ul li.sidebar-li-2,
+nav .sidebar-wrapper #sidebar ul li.sidebar-li-4,
+nav .sidebar-wrapper #sidebar ul li.sidebar-li-6 {
+  border-right: 4px solid rgba(28, 74, 90, 0.9);
+}
+
+nav .sidebar-wrapper #sidebar ul li.sidebar-bottom {
+  border-right: 4px solid rgba(28, 74, 90, 0.9);
+  height: 100%;
+}
+
+nav .sidebar-wrapper #sidebar ul span.sidebar-list-text {
+  position: absolute;
+  margin-left: -130px;
+  font-size: 1.9vmin;
+  margin-top: 0.3em;
+  padding-left: 0.5em;
+}
+
+nav .sidebar-wrapper #sidebar ul li span.portfolio-span {
+  padding-left: 0;
+}
+
+nav .sidebar-wrapper.active1 {
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  display: initial;
+}
+
+/* small screen navbar */
+/***************************************************************************************************************************************
+                                            banner              
+*************************************************************************************************************/
+section#banner.rightwindow {
+  background: url("../images/banner-large.png") repeat;
+  background-size: contain;
+  margin-top: 0px;
+  text-align: center;
+}
+
+section#banner.rightwindow .banner-bg-color .banner-content {
+  padding-top: 500px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.91);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner {
+  border: 2px dotted #000;
+  padding: 20px;
+}
+
+section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text h1 {
+  margin: 0px;
+}
+
+section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text .bushra {
+  color: #EA6045;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 30px 0 35px;
+  text-transform: uppercase;
+}
+
+section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text a button {
+  color: #fff;
+}
+
+section#banner.rightwindow .banner-bg-color ul.logo li {
+  display: inline;
+  padding: 20px;
+  margin: auto;
+}
+
+section#banner.rightwindow .banner-bg-color ul.logo li img {
+  width: 4rem;
+  height: 4rem;
+}
+
+section#banner.rightwindow .banner-bg-color .arrow-center-down a i {
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+}
+
+/* ---------------------personal skills--------------------------- */
+section#personal-skill.rightwindow .personal-skill {
+  background-color: #122225;
+  /* border:11px solid green; */
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+  padding: 30px;
+  /* width: 100%; */
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+section#personal-skill.rightwindow .personal-skill .personal-skill-body {
+  padding-top: 30px;
+}
+
+section#personal-skill.rightwindow .personal-skill .personal-skill-body i {
+  padding-bottom: 20px;
+}
+
+/**********************************  portfolio **********************************************/
+section#portfolio.rightwindow {
+  padding-top: 60px;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color {
+  width: 100%;
+  padding-top: 30px;
+  /* background-color: rgba(0,0,0,.3); */
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-header {
+  color: #122225;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  /*border: 1px solid white;*/
+  margin-bottom: 10px;
+  /*background-color:ghostwhite;*/
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-header .inner-header {
+  /* border: 3px solid rgba(28,74,90, 0.7); */
+  margin: 20px auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-header .portfolio-h1 {
+  color: #EA6045;
+  /* gba(12, 184, 182, 0.91); */
+  /* margin-top: 10px; */
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail {
+  /* border: 1px solid red; */
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .col-div {
+  border: 1px solid gray;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-center {
+  height: 100%;
+  overflow: hidden;
+  padding: 20px 10px;
+  color: #fff;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-align: justify;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-center p::first-letter {
+  font-size: 2em;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-center:hover {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 30px 6px -76px #777;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-center p {
+  font-size: 0.8rem;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-1 {
+  position: relative;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-1 .img-div1 {
+  width: 100%;
+  height: 100%;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-1 .img-div1 img {
+  width: 100%;
+  height: 400px;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  display: none;
+  top: 0;
+  left: 0;
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #EA6045;
+  text-align: center;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button {
+  background-color: #1c4b5a;
+  margin-top: 2em;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button i {
+  margin-left: 0.5em;
+}
+
+/****************************** portfolio end*/
+section#aboutme {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-top: 60px;
+}
+
+section#aboutme .about-header {
+  margin: 20px auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+section#aboutme .about-body .about-tech-header, section#aboutme .about-body .about-bio-header {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #EA6045;
+  -webkit-box-shadow: 1px 1px 3px #444444;
+          box-shadow: 1px 1px 3px #444444;
+  border-bottom: 3px solid rgba(28, 74, 90, 0.7);
+}
+
+section#aboutme .about-body .about-body-left {
+  text-align: justify;
+}
+
+section#aboutme .about-body .about-body-left .about-body-left p {
+  padding: 10px;
+}
+
+section#aboutme .about-body .about-body-left p::first-letter {
+  color: #EA6045;
+  float: left;
+  font-family: Georgia;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+section#aboutme .about-body .about-body-right ul {
+  list-style: none;
+  padding: 0 10px;
+}
+
+section#aboutme .about-body .about-body-right ul li {
+  border-bottom: 1px dotted gray;
+  margin-top: 8px;
+}
+
+section#aboutme .about-body .about-body-right ul li h6 {
+  color: #EA6045;
+  font-weight: bold;
+}
+
+section#aboutme .about-body .about-body-right ul li:last-child {
+  border-bottom: none;
+}
+
+section#contact {
+  padding-top: 60px;
+}
+
+section#contact .contact {
+  height: 400px;
+  margin-top: 200px;
+  position: relative;
+}
+
+section#contact .contact .gradient-contact {
+  background: #999955;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #dab046), color-stop(20%, #f82206), color-stop(40%, #c71b25), color-stop(60%, #961a39), color-stop(80%, #601035));
+  background-image: linear-gradient(#dab046 20%, #f82206 20% 40%, #c71b25 40% 60%, #961a39 60% 80%, #601035 80% 100%);
+  width: 100%;
+  margin: 0 auto;
+  height: 200px;
+}
+
+section#contact .contact .gradient-after {
+  position: absolute;
+  background: #ccdfcb;
+  left: 15%;
+  border-radius: 5px;
+  height: 400px;
+  top: -100px;
+  width: 70%;
+  z-index: -1;
+}
+
+section#contact .contact .card-bushra {
+  color: #1c4a5a;
+  position: absolute;
+  width: 60%;
+  height: 350px;
+  padding: 23px 15px;
+  left: 20%;
+  top: -80px;
+  background: #ccdfcb;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-box-shadow: -20px 0 35px -25px black, -20px 0 35px -25px black;
+          box-shadow: -20px 0 35px -25px black, -20px 0 35px -25px black;
+  word-wrap: break-word;
+}
+
+section#contact .contact .card-bushra div {
+  margin: 0 auto;
+}
+
+section#contact .contact .card-bushra h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+section#contact .contact .card-bushra h1::after {
+  margin-top: 1rem;
+}
+
+section#contact .contact .card-bushra h1 a {
+  text-decoration: none;
+}
+
+#footer-section .container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer-section .container-fluid .footer-banner {
+  height: 100px;
+}
+
+#footer-section .container-fluid .footer-banner .clip-path-right {
+  position: absolute;
+  color: red;
+  height: 100px;
+  width: 25%;
+  right: 0;
+  -webkit-clip-path: polygon(45% 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(45% 0, 100% 0, 100% 100%, 0% 100%);
+  background-color: #ccdfcb;
+  z-index: 1;
+}
+
+#footer-section .container-fluid .footer-banner .clip-path-left {
+  position: absolute;
+  color: red;
+  height: 100px;
+  width: 25%;
+  right: left;
+  -webkit-clip-path: polygon(0 0, 54% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 54% 0, 100% 100%, 0% 100%);
+  background-color: #ccdfcb;
+  z-index: 1;
+}
+
+#footer-section .container-fluid .footer-banner .footer-bgcolor {
+  background-color: #325c6a;
+  width: 100%;
+  height: 100%;
+}
+
+#footer-section .container-fluid .footer-banner .footer-bgcolor .footer-detail {
+  padding: 10px 5px 10px 5px;
+  font-size: 2.8vh;
+  text-align: center;
+}
+
+#footer-section .container-fluid .footer-banner .bottom-footer {
+  padding: 5px;
+  color: #000;
+  font-size: 2vh;
+  line-height: 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.carousel-button {
+  text-align: center;
+}
+
+.carousel-button .res-img {
+  height: 700px;
+  width: 70%;
+  margin-right: 10px;
+  -webkit-box-shadow: 1px 4px 4px #444;
+          box-shadow: 1px 4px 4px #444;
+}
+
+.carousel-control-next {
+  color: #000;
+  font-size: 40px;
+}
+
+.carousel-control-next:hover {
+  color: #000;
+}
+
+.carousel-control-prev {
+  color: #000;
+  font-size: 40px;
+}
+
+.carousel-control-prev:hover {
+  color: #000;
+}
+
+@media (max-width: 756px) {
+  #banner {
+    background: url("../images/banner-small.png") no-repeat fixed;
+  }
+  .navbar {
+    display: none;
+  }
+  .smallnavbar {
+    display: initial;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+/* media query end here for small screen */
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 756px) {
+  .sidebar-navbar-toggle-button,
+  .top-nav-collapse {
+    -webkit-box-shadow: 2px 2px 5px #444444;
+            box-shadow: 2px 2px 5px #444444;
+  }
+  .sidebar-navbar-toggle-button {
+    display: none;
+  }
+  .toggle-button-div {
+    display: none;
+  }
+  .rightwindow.active2 {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  .sidebar-toggle-button {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+}
+
+/* media query end here for large screen */
+@media screen and (max-width: 576px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  :root {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  :root {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=portfolio-style.css.map */

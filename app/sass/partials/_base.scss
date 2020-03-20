@@ -1,0 +1,170 @@
+.h1,
+h1 {
+    font-size: $h1-font;
+}
+
+.h2,
+h2 {
+    font-size: $h2-font;
+}
+
+.h3,
+h3 {
+    font-size: $h3-font;
+}
+
+.h4,
+h4 {
+    font-size: $h4-font;
+}
+
+.h5,
+h5 {
+    font-size: $h5-font;
+}
+
+.h6,
+h6 {
+    font-size: $h6-font;
+}
+
+
+p {
+    font-size: $p-font;
+}
+
+
+a {
+    font-size: $a-font;
+}
+
+li {
+    font-size: $li-font;
+}
+
+i {
+
+
+    font-size: $i-font;
+}
+
+span {
+
+
+    font-size: $span-font;
+}
+
+button {
+    font-size: $button-font;
+}
+
+// html {
+//     font-size: 20px;
+// }
+
+body {
+    font-family: Lato, sans-serif;
+    color: #122225;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.button-class {
+    font-size: $button-font;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    padding: .6em 1.2em;
+    background-color: $main-orange;
+    border-radius: .19em;
+    box-shadow: 0 4px 4px -1px #333;
+    transition: all ease-in-out 300ms;
+    text-decoration: none;
+
+    &:active,
+    &:hover {
+        box-shadow: 0 17px 10px -10px rgba(0, 0, 0, .4);
+        color: $main-green;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
+
+
+.circle-for-icon {
+    width: 6vmin;
+    height: 6vmin;
+    font-size: $i-font;
+    background: #0cb8b6;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    line-height: 6vmin;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+}
+
+
+.rectangle-with-traingle {
+    margin-left: 140px;
+    background: #fff;
+    padding: 14px 24px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.18);
+    position: relative;
+    width: 200px;
+    height: 400px;
+}
+
+.rectangle-with-traingle::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-left: 0;
+    bottom: -40px;
+    left: 56px;
+    border-top-color: #fff;
+    border-width: 20px;
+}
+
+.bg-color {
+    padding-bottom: 30px;
+    background-color: RGBA(13, 70, 93, 0.9);
+    /* background-color: red; */
+    min-height: 60px;
+    padding-left: -30px !important;
+}
+
+.section-margin {
+    margin: 30px 0;
+}
+
+.section-padding {
+    padding: 30px 0;
+
+}
+
+.line-under-heading {
+    content: "";
+    width: 200px;
+    background-color: $main-orange;
+    margin: auto;
+    display: block;
+    height: 5px;
+}
